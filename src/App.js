@@ -1,6 +1,13 @@
 import React from "react";
 import "./App.css";
 
+
+const nasaData =
+axios.get('https://api.nasa.gov/planetary/apod')
+.then(response => {
+  nasaData = response;
+})
+
 function App() {
   return (
     <div className="App">
