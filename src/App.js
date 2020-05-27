@@ -1,20 +1,25 @@
 import React from "react";
 import "./App.css";
 
+import PhotoContainer from "./Components/PhotoContainer/PhotoContainer"
+import HeaderContainer from "./Components/HeaderContainer/HeaderContainer"
+import NavigationContainer from "./Components/Navigation/NavigationContainer"
 
-const nasaData =
-axios.get('https://api.nasa.gov/planetary/apod')
-.then(response => {
-  nasaData = response;
-})
+
+// const nasaData =
+// axios.get('https://api.nasa.gov/planetary/apod')
+// .then(response => {
+//   nasaData = response;
+// })
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+
+      {/* rendering components */}
+      <HeaderContainer />
+      {/* <NavigationContainer />
+      <PhotoContainer /> */}
     </div>
   );
 }
