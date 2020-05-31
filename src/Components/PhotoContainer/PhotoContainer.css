@@ -6,9 +6,14 @@
 
 .photo-container img {
     width: 600px;
-    height: 600px;
+    height: 500px;
 }
 
-.photo-container .caption {
-    margin: 5rem;
+.photo-container p {
+    margin-left: 5rem;
+}
+
+.photo-container h2 {
+    /* padding-left: 7rem; */
+    display: inline-block;
 }

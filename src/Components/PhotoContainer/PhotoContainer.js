@@ -9,9 +9,13 @@ const PhotoContainer = props => {
                 <h1>{props.props.copyright}</h1>
                 <img src = {props.props.hdurl} alt="Galaxies"/>
             </div>
-            <div className = "caption">
+            <div>
+                <h2>{props.props.date}</h2>
                 <p>{props.props.explanation}</p>
             </div>
+            {/* <div className = "next-button">
+                <button onClick={() => setNasaData()}></button>
+            </div> */}
         </div>
     )
 }
