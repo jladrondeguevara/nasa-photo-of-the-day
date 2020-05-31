@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import LogoContainer from "../HeaderContainer/LogoContainer"
+import "./HeaderContainer.css";
 
 const HeaderContainer = () => {
 
@@ -10,7 +11,7 @@ const HeaderContainer = () => {
             </div>
             <div className = "title">
                 <h1>Astronomy Picture Of The Day</h1>
-            </div>s
+            </div>
         </div>
     );
 };

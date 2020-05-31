@@ -1,8 +1,12 @@
 import React from "react";
+import logo from "../../images/nasa-logo.jpg"
+import "./LogoContainer.css";
 
 const LogoContainer = () => {
     return (
-        <img src="./images/nasa-logo.jpg"/>
+
+        // add css to adjust logo size.
+        <img src={logo} alt= "NASA Logo"/>
     );
 };
 
