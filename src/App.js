@@ -18,8 +18,8 @@ function App() {
 
       {/* rendering components */}
       <HeaderContainer />
-      {/* <NavigationContainer />
-      <PhotoContainer /> */}
+      <NavigationContainer />
+      {/* <PhotoContainer /> */}
     </div>
   );
 }
