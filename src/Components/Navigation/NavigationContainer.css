@@ -1,0 +1,10 @@
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 0rem 8rem 0rem 8rem;
+}

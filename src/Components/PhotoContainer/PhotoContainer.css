@@ -1,0 +1,19 @@
+.photo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.photo-container img {
+    width: 600px;
+    height: 500px;
+}
+
+.photo-container p {
+    margin-left: 5rem;
+}
+
+.photo-container h2 {
+    /* padding-left: 7rem; */
+    display: inline-block;
+}
