@@ -6,7 +6,7 @@ import PhotoContainer from "./Components/PhotoContainer/PhotoContainer"
 import HeaderContainer from "./Components/HeaderContainer/HeaderContainer"
 import NavigationContainer from "./Components/Navigation/NavigationContainer"
 
-
+//Second part of the project starts here.
 
 
 function App () {
